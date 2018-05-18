@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body, html {
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-style: outset;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+li{
+	position: relative;
+	margin-top: 1%;
+	vertical-align: middle;
+	height: 20px;
+}
+
+
+h1{
+	margin-top: 10%;
+}
+
+p{
+	text-align: center;
+}
+
+
+.boitegauche {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	background-color: lightblue;
+	text-align: center;
+	margin-left: 0%;
+	border: 1px solid black;
+}
+
+
+.boitedroite {
+	position: absolute;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	margin-left: 40%;
+}
+
+
+#logo {
+	display: block;
+	background-size: 100%;
+	background-image: url("ftrans.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: relative;
+	width: 50%;
+	height: 50%;
+	margin-top: 10%;
+	margin-left: 25%;
+}
+
+
+#boite1 {
+	position: relative;
+	width: 100%;
+	height: 70%;
+}
+
+
+#boite2 {
+	position: relative;
+	width: 100%;
+	height: 30%;
+}
+
+
+#boite3{
+	position: relative;
+	width: 100%;
+	height: 33%;
+	background-color: mediumpurple;
+	padding-top: 5%;
+	border: 1px solid black;
+}
+
+
+#boite4{
+	position: relative;
+	width: 100%;
+	height: 34%;
+	background-color: lightgrey;
+	padding-top: 5%;
+	border: 1px solid black;
+}
+
+
+#boite5{
+	position: relative;
+	width: 100%;
+	height: 33%;
+	background-color: peachpuff;
+	padding-top: 5%;
+	border: 1px solid black;
+}
+
+
+.niveau{
+	position: relative;
+	border: 2px solid black;
+	width: 50%;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+
+#barre1{
+	background-color: blueviolet;
+	width: 0%;
+	height: 17px;
+}
+
+
+#barre2{
+	background-color: blueviolet;
+	width: 0%;
+	height: 17px;
+}
+
+
+#barre3{
+	background-color: blueviolet;
+	width: 0%;
+	height: 17px;
+}
+
+
+#barre4{
+	background-color: blueviolet;
+	width: 0%;
+	height: 17px;
+}
+
+
+#boite2 p{
+	position: absolute;
+	left: 45%;
+}
+
+
+.capacites li{
+	text-align: right;
+	margin-right: 6%;
+}
